@@ -1,0 +1,30 @@
+[
+  {
+    "id": "account",
+    "name": "solutions.name.account"
+  },
+  {
+    "id": "cardProcessing",
+    "name": "solutions.name.cardProcessing"
+  },
+  {
+    "id": "bnpl",
+    "name": "solutions.name.bnpl"
+  },
+  {
+    "id": "openBanking",
+    "name": "solutions.name.openBanking"
+  },
+  {
+    "id": "payment",
+    "name": "solutions.name.payment"
+  },
+  {
+    "id": "cardIssuing",
+    "name": "solutions.name.cardIssuing"
+  },
+  {
+    "id": "additional",
+    "name": "solutions.name.additional"
+  }
+]

@@ -1,0 +1,30 @@
+.ant-modal {
+  color: @secondary-gradient-point-2;
+
+  &.error {
+    color: @error-color;
+  }
+
+  .ant-modal-body {
+    padding: 20px;
+    display: grid;
+    place-items: center;
+
+
+    .ant-col {
+      p {
+        text-align: center;
+        font-size: 18px;
+        color: black;
+        margin: 10px !important;
+      }
+
+      svg {
+        width: 60px;
+        height: auto;
+        fill: currentColor;
+        margin: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.ant-btn {
+  cursor: pointer;
+
+  &.ant-btn-primary {
+    &:not(.gradient) {
+      .text-700();
+      .font-16();
+      height: 62px;
+      border-radius: 8px;
+      padding: 21px 53px;
+      line-height: 18px;
+      border: 1px solid @color-paramtech-border;
+    }
+
+    &.gradient {
+      .p-0();
+      font-weight: 700;
+      height: auto;
+      font-size: 14px;
+      outline: transparent;
+      border: none;
+      transition: .3s;
+      background: transparent;
+      box-shadow: none;
+
+      >div {
+        .pt-16();
+        .pb-16();
+        .pr-40();
+        .pl-40();
+        background-color: @color-paramtech-dark;
+        border-radius: 50px;
+        position: relative;
+        transition: .3s;
+
+        &::before {
+          .absolute();
+          content: "";
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-radius: 50px;
+          border: 2px solid transparent;
+          background: @button-primary-gradient border-box;
+          mask: linear-gradient(#fff 0 0) padding-box,
+            linear-gradient(#fff 0 0);
+          -webkit-mask:
+            linear-gradient(#fff 0 0) padding-box,
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: destination-out;
+          mask-composite: exclude;
+        }
+
+      }
+
+      &:focus,
+      &:active {
+        background: transparent;
+      }
+
+      &:hover {
+        background: transparent;
+
+        >div {
+          box-shadow: rgba(@color-paramtech-dark, 0.5) 0px 8px 16px 0px;
+        }
+      }
+    }
+
+    &:disabled {
+      background-color: lighten(@font-color-gray, 10);
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+  }
+
+  &.secondary {
+    .text-700();
+    padding: 20px 52px;
+    background-color: @color-secondary;
+    color: white;
+    border-radius: 50px;
+    height: auto;
+    font-size: 20px;
+    outline: transparent;
+    border: none;
+    transition: .3s;
+    box-shadow: none;
+    border: 3px solid @color-secondary-light;
+    line-height: 25px;
+
+    &:hover {
+      background-color: @color-secondary-hover;
+    }
+  }
+
+  &.with-icon.with-icon {
+    .full-width();
+    .flex();
+    .align-center();
+    justify-content: space-between;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
+
+@media @mobile-large {
+  .ant-btn {
+    &.secondary {
+      padding: 16px 40px;
+      font-size: 18px;
+    }
+  }
+}

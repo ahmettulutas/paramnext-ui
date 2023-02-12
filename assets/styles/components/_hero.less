@@ -1,0 +1,167 @@
+.hero {
+  background-color: @color-paramtech;
+  padding-top: 102px;
+  position: relative;
+  height: auto;
+
+  &.auto-height {
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  &-wrapper {
+    .relative();
+
+    .container();
+    .pt-40();
+    .pb-40();
+
+    @media @mobile-large {
+      .pt-0();
+    }
+
+    h1 {
+      .text-400();
+      color: white;
+      line-height: 100%;
+
+      span {
+        .text-500();
+      }
+    }
+
+    p {
+      color: white;
+      font-size: 20px;
+    }
+
+  }
+
+  &.gradient {
+    background: linear-gradient(270.08deg, #3E0C8A -2.64%, #200035 101.49%);
+  }
+
+  &.beehive {
+    background: linear-gradient(270.08deg, #3E0C8A -2.64%, #200035 101.49%);
+
+    &::before {
+      .full-height();
+      .full-width();
+      .absolute();
+      background: url("/images/beehive.svg");
+      content: "";
+      top: 0;
+      left: 0;
+      background-size: cover;
+    }
+  }
+
+  &.grain {
+    img {
+      .full-height();
+      .full-width();
+      .absolute();
+      object-fit: cover;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .hero-content {
+    .mt-104();
+    .mb-160();
+
+
+
+    .hero-image {
+      div {
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -1;
+        .relative();
+      }
+
+    }
+
+    h5 {
+      .text-500();
+      font-size: 24px;
+      line-height: 110%;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      .text-400();
+      font-size: 80px;
+      line-height: 110%;
+
+      @media @tablet {
+        font-size: 60px;
+      }
+    }
+
+    p {
+      .text-400();
+      font-size: 18px;
+      line-height: 23px;
+
+      &+.ant-btn {
+        .mt-48();
+      }
+    }
+
+
+    .svg {
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+
+      svg {
+        .mt-48();
+        .full-width();
+
+        @media @mobile-large {
+          .mt-0();
+        }
+
+      }
+
+      &.tr {
+        [class$="en"] {
+          display: none;
+        }
+      }
+
+      &.en {
+        [class$="tr"] {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media @tablet {
+  .hero {
+    .hero-content {
+      .container-tight();
+      .text-center();
+      .mt-32();
+      .mb-56();
+
+      h5 {
+        .mb-24();
+        font-size: 16px;
+      }
+
+      h1 {
+        .mb-56();
+        font-size: 36px;
+      }
+
+    }
+  }
+}

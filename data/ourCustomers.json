@@ -1,0 +1,38 @@
+[
+  {
+    "name": "teknosa",
+    "imagePath": "/images/customers/customer-kredim-v2.svg",
+    "width": 250,
+    "height": 250
+  },
+  {
+    "name": "defacto",
+    "imagePath": "/images/customers/customer-messt.svg",
+    "width": 250,
+    "height": 250
+  },
+  {
+    "name": "kigili",
+    "imagePath": "/images/customers/customer-momento.svg",
+    "width": 250,
+    "height": 250
+  },
+  {
+    "name": "jolly",
+    "imagePath": "/images/customers/customer-moneypay.svg",
+    "width": 250,
+    "height": 250
+  },
+  {
+    "name": "evidea",
+    "imagePath": "/images/customers/customer-param.svg",
+    "width": 250,
+    "height": 250
+  },
+  {
+    "name": "lufian",
+    "imagePath": "/images/customers/customer-takside-pos.svg",
+    "width": 250,
+    "height": 250
+  }
+]

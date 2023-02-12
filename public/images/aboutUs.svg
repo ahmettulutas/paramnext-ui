@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1135 635" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <path d="M594 389.602L1017 390.102V534.102H482.883L594 389.602Z" fill="#450D87"/>
+  <path d="M708.678 430.513C709.496 427.582 713.654 427.591 714.46 430.525L716.943 439.558C717.489 441.545 719.83 442.402 721.53 441.238L729.261 435.946C731.771 434.228 734.95 436.907 733.682 439.672L729.778 448.188C728.919 450.061 730.161 452.223 732.212 452.424L741.535 453.339C744.563 453.637 745.277 457.732 742.528 459.036L734.063 463.05C732.201 463.933 731.763 466.387 733.205 467.859L739.758 474.553C741.887 476.727 739.801 480.323 736.857 479.555L727.793 477.188C725.799 476.668 723.886 478.266 724.044 480.321L724.761 489.662C724.994 492.695 721.085 494.109 719.324 491.628L713.901 483.989C712.708 482.309 710.215 482.303 709.015 483.979L703.561 491.595C701.79 494.069 697.886 492.639 698.132 489.606L698.888 480.269C699.054 478.215 697.148 476.609 695.152 477.121L686.078 479.449C683.131 480.206 681.06 476.601 683.197 474.436L689.779 467.769C691.226 466.303 690.798 463.847 688.94 462.956L680.492 458.907C677.749 457.592 678.479 453.5 681.508 453.215L690.835 452.338C692.887 452.145 694.138 449.989 693.287 448.112L689.418 439.581C688.161 436.81 691.351 434.144 693.855 435.873L701.563 441.197C703.259 442.368 705.603 441.52 706.157 439.535L708.678 430.513Z" fill="#906EC7"/>
+  <line x1="784" y1="390" x2="784" y2="534" stroke="#906EC7" stroke-width="2"/>
+  <line x1="641" y1="390" x2="641" y2="534" stroke="#906EC7" stroke-width="2"/>
+  <line x1="1010" y1="390" x2="1010" y2="534" stroke="#906EC7" stroke-width="2"/>
+  <path d="M1053.94 497.086L1034.56 533.862L1017 534V390H1080.44C1149.31 390.194 1149.31 497.086 1080.44 497.086H1053.94Z" fill="#450D87"/>
+
+  <text class="en" transform="translate(553 509) rotate(-90)" fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="16" letter-spacing="0em">
+    <tspan x="0" y="15.084">the future </tspan>
+    <tspan x="0" y="33.084">bank tech is </tspan>
+    <tspan x="0" y="51.084">here.</tspan>
+  </text>
+  <text class="tr" transform="translate(553 509) rotate(-90)" fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="16" letter-spacing="0em">
+    <tspan x="0" y="15.084">geleceğin</tspan>
+    <tspan x="0" y="33.084">banka</tspan>
+    <tspan x="0" y="49.084">teknolojisi </tspan>
+    <tspan x="0" y="66.084">burada.</tspan>
+  </text>
+
+  <g opacity="0.3" filter="url(#filter0_f_6_186)">
+    <rect x="482.5" y="390" width="225" height="144" fill="black"/>
+  </g>
+  <path d="M413.385 387.103L661.093 63.2903L793.385 130.602L482.885 534.102L413.385 387.103Z" fill="#450D87"/>
+  <text transform="translate(469 419.858) rotate(-51.93)" fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="18" font-weight="bold" letter-spacing="0em">
+    <tspan class="en" x="0" y="16.8445">Save time by having in one platform</tspan>
+    <tspan class="tr" x="0" y="16.8445">Tek  platform ile zamandan tasarruf</tspan>
+  </text>
+  <text fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="30" font-weight="bold" letter-spacing="0em">
+    <tspan x="816" y="467.907">ParamTech&#10;</tspan>
+  </text>
+  <text fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="11.4" letter-spacing="0em">
+    <tspan class="en" x="816" y="480.908">Financial Technology Solutions</tspan>
+    <tspan class="tr" x="816" y="480.908">Finansal Teknoloji Çözümleri</tspan>
+  </text>
+  <path d="M0 391.102L700.145 15.1019L793 131.102L76 518.102L0 391.102Z" fill="url(#paint0_linear_6_186)"/>
+  <text class="en" transform="translate(160 356.842) rotate(-28.44)" fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="24" font-weight="bold" letter-spacing="0em">
+    <tspan x="0" y="22.126">Lower your costs, save time, and elevate </tspan>
+    <tspan x="0" y="48.126">the costumer experience</tspan>
+  </text>
+  <text class="tr" transform="translate(160 356.842) rotate(-28.44)" fill="#906EC7" xml:space="preserve" style="white-space: pre" font-family="Mark Pro" font-size="24" font-weight="bold" letter-spacing="0em">
+    <tspan x="0" y="22.126">Maliyetleri düşürün, zamandan tasarruf edin</tspan>
+    <tspan x="0" y="48.126">ve müşteri deneyimini yükseltin</tspan>
+  </text>
+  <defs>
+    <filter id="filter0_f_6_186" x="382.5" y="290" width="425" height="344" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_6_186"/>
+    </filter>
+    <linearGradient id="paint0_linear_6_186" x1="866.5" y1="61" x2="208.626" y2="-183.509" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#450D87"/>
+      <stop offset="0.567708" stop-color="#1A002B"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+</svg>

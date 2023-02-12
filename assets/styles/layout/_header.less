@@ -1,0 +1,321 @@
+.ant-layout-header {
+  .full-width();
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  padding-top: 30px;
+  height: auto;
+  transition: .3s ease-in;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  .brand-logo {
+    margin: 0 auto;
+
+    svg {
+      width: 110%;
+      height: auto;
+    }
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    gap: 0.4rem;
+    color: white;
+
+    .ant-divider {
+      background-color: white;
+      width: 2px;
+      margin: 0 auto;
+      padding-top: 2px;
+      line-height: 66px;
+      height: 16px;
+      margin-bottom: -2px;
+    }
+
+    div {
+      line-height: 64px;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      &.active {
+        a {
+          color: inherit;
+        }
+      }
+
+      a {
+        color: @gray-70;
+        font-size: 16px;
+        line-height: 64px;
+        padding-top: 2px;
+
+        &:hover {
+          color: @color-secondary;
+        }
+      }
+    }
+  }
+
+  &.scrolled {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 20px -10px #000;
+
+    .container {
+      section {
+        color: black;
+
+        .ant-divider {
+          background-color: black;
+        }
+      }
+
+      .brand-logo {
+        a {
+          color: @color-paramtech-dark;
+        }
+
+      }
+
+      .header-menu {
+
+        .ant-menu {
+          color: black;
+
+          & * {
+            color: inherit;
+          }
+
+        }
+      }
+    }
+  }
+
+  .container {
+    .flex();
+    align-items: center;
+    width: 100%;
+
+
+
+    .brand-logo {
+      margin: 0 auto;
+
+      a {
+        display: grid;
+        cursor: pointer;
+        place-items: center;
+        color: white;
+      }
+    }
+
+    .header-menu {
+      .full-width();
+
+      &.mobile {
+        .none();
+      }
+
+      .ant-menu {
+        justify-content: flex-end;
+        align-items: center;
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+
+        & * {
+          color: inherit;
+        }
+
+        .ant-menu-item {
+          a {
+            transition: .1s ease-out;
+          }
+
+          &:hover {
+            color: @color-secondary;
+          }
+        }
+
+        .ant-menu-submenu-title {
+          transition: .1s ease-out;
+
+          .anticon {
+            transition: inherit !important;
+          }
+        }
+
+        .ant-menu-item,
+        .ant-menu-submenu {
+          .ant-menu-submenu-selected {
+            margin-top: 0;
+          }
+
+          &::after {
+            border: none;
+          }
+        }
+
+        &.ant-menu-horizontal {
+          &:not(.ant-menu-dark) {
+            >.ant-menu-submenu:hover {
+              color: @color-secondary;
+
+              &::after {
+                border: none;
+              }
+            }
+          }
+        }
+
+        .ant-menu-submenu-open,
+        .ant-menu-submenu-active {
+          color: @color-secondary;
+        }
+
+      }
+    }
+  }
+}
+
+.ant-menu-submenu-popup {
+  .ant-menu-sub {
+    .text-800();
+    background: @white;
+    box-shadow: 0 5px 20px -10px #000;
+    min-width: 250px;
+    padding: 10px;
+    overflow-x: hidden;
+
+    &:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      background-color: white !important;
+    }
+
+    &::-webkit-scrollbar {
+      .none();
+    }
+
+    .ant-menu-item {
+      margin: 0px !important;
+      color: @color-paramtech;
+
+      .ant-menu-title-content {
+        display: flex;
+        align-items: center;
+
+        a {
+          font-weight: 500;
+        }
+
+        &:hover {
+          color: @color-secondary;
+
+          svg {
+            transform: translateX(20px);
+          }
+        }
+
+        a,
+        svg {
+          color: inherit;
+          transition: 0.2s ease-out;
+        }
+
+
+
+        svg {
+          fill: currentColor;
+          stroke: currentColor;
+          margin-left: 0.3rem;
+        }
+      }
+    }
+  }
+}
+
+
+@media @tablet {
+
+  // TABLETTEN İTİBAREN  HAMBURGER MENÜYE GEÇME EKLEDİM, ÇÜNKÜ ANTD MENÜ SIĞMAYAN LİNKLERİ KÜÇÜK THREE DOTS İLE DROPDOWNA ALIYOR. 
+  .ant-layout-header {
+    .p-0();
+    .pt-40();
+    .pb-40();
+    height: auto;
+
+    .container {
+
+      .brand-logo {
+        margin: 0 auto;
+
+        a {
+          cursor: pointer;
+          display: grid;
+          place-items: center;
+        }
+
+        svg {
+          transform: scale(.75);
+        }
+      }
+
+      .button-container,
+      section {
+        .none();
+      }
+
+      .header-menu {
+
+        &.mobile {
+          display: grid;
+          place-items: center;
+          display: block;
+          width: 24px;
+          right: 30px;
+          top: 12px;
+          margin-right: 1rem;
+        }
+
+        &.desktop {
+          .none();
+
+        }
+      }
+
+      .menu-trigger {
+        .flex();
+        height: 20px;
+      }
+
+
+    }
+
+    &.scrolled {
+      padding: 20px !important;
+
+      .menu-trigger {
+        fill: black;
+        stroke: black;
+
+        svg {
+          fill: inherit;
+
+          * {
+            stroke: inherit;
+          }
+        }
+      }
+    }
+  }
+}

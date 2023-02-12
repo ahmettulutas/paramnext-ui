@@ -1,0 +1,72 @@
+.project-purple {
+  padding-top: 180px;
+  .relative();
+  background-color: @color-purple-pink;
+  margin-top: -94px;
+  height: 100%;
+
+  &::after {
+    content: "";
+    .absolute();
+    .full-height();
+    .full-width();
+    background: url("/images/arrows.svg");
+    background-position: center;
+    left: 0;
+    top: 48px;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    @media @mobile-large {
+      transform: rotate(90deg);
+      top: -25%;
+    }
+  }
+
+  &::before {
+    .full-height();
+    .full-width();
+    .absolute();
+    background: url("/images/beehive.svg");
+    content: "";
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: 0;
+  }
+
+
+
+  >div {
+    .container();
+
+    .form {
+      .relative();
+      margin: auto;
+      z-index: 2;
+
+      >div {
+        .p-32();
+        .relative();
+        .full-width();
+        padding-bottom: 30px !important;
+        border-radius: 20px;
+        background: white;
+        box-shadow: 0px 0px 100px rgba(26, 25, 39, 0.4);
+        top: 46px;
+      }
+    }
+
+    .text-row {
+      .full-height();
+      .container-responsive-centered();
+
+      .text {
+        .flex();
+        .align-center();
+        z-index: 2;
+      }
+
+    }
+  }
+}

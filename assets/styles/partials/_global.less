@@ -1,0 +1,195 @@
+.generate-spacing(top, t, 300);
+.generate-spacing(bottom, b, 300);
+.generate-spacing(left, l, 300);
+.generate-spacing(right, r, 300);
+
+.generate-spacing(@direction, @d, @n, @i: 0) when (@i =< @n) {
+  .m@{d}-@{i} {
+    margin-@{direction}:~"@{i}px" !important;
+  }
+
+  .p@{d}-@{i} {
+    padding-@{direction}:~"@{i}px" !important;
+  }
+
+  .m-@{i} {
+    margin:~"@{i}px" !important;
+  }
+
+  .p-@{i} {
+    padding:~"@{i}px" !important;
+  }
+
+  .generate-spacing(@direction, @d, @n, (@i + 8));
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.centered {
+  .flex();
+  .align-center();
+  .justify-center();
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.container {
+  max-width: 1320px;
+  width: 90%;
+  margin: 0 auto;
+  .full-height();
+}
+
+.container-fluid {
+  max-width: 90%;
+  width: 900px;
+  margin: 0 auto;
+  .full-height();
+}
+
+.container-tight {
+  max-width: 88%;
+  margin: 0 auto;
+}
+
+.container-tight-strong {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.bring-to-front {
+  .relative();
+  z-index: 1;
+
+  @media @tablet {
+    justify-content: center;
+  }
+}
+
+html,
+body {
+  font-family: @mark-pro;
+  width: 100vw !important;
+  height: 100vh !important;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media @mobile-large {
+
+  .mobile-hide,
+  [class$="mobile-hide"] {
+    .none();
+  }
+}
+
+.mobile-centered {
+  @media @mobile-large {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.container-responsive-centered {
+  .flex();
+  justify-content: space-between;
+
+  &.tablet {
+    @media @tablet {
+      justify-content: center;
+    }
+  }
+
+  &.mobile {
+    @media @mobile-large {
+      justify-content: center;
+    }
+  }
+
+
+
+}
+
+.tablet-centered-text {
+  @media @tablet {
+    text-align: center;
+  }
+}
+
+.loading-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: @white;
+  display: grid;
+  place-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}
