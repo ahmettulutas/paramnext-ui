@@ -1,12 +1,10 @@
 import { Col, Row } from "antd";
 import React from "react";
 import { Button } from "@/components/UIKit";
-/* import ParamTextCard from "@/assets/images/paramtech-card.svg"; */
 import { FormattedMessage } from "react-intl";
-import HomeParamTechCard from "@/assets/images/home-paramcard.png";
-import Image from "next/image";
 import AnimateSection from "@/components/UIComponents/AnimationSection";
 import TranslatedLink from "@/components/UIKit/TranslatedLink";
+import HomeParamTechCard from "@/components/UIComponents/HeroComponents/HomeParamNextCard";
 
 const HeroContent = () => (
   <section className="content">
@@ -26,9 +24,9 @@ const HeroContent = () => (
           </TranslatedLink>
         </AnimateSection>
       </Col>
-      <Col xs={{ span: 14, order: 1 }} lg={{ span: 12, order: 2 }} xl={{ span: 9, order: 2 }} className="paramtech-card">
+      <Col xs={{ span: 16, order: 1 }} lg={{ span: 12, order: 2 }} xl={{ span: 9, order: 2 }} className="paramtech-card">
         <AnimateSection animationSlide={"slideLeft"} delay={1200}>
-          <Image src={HomeParamTechCard} alt="param-tech-card"/>
+          <HomeParamTechCard />
         </AnimateSection>
       </Col>
     </Row>

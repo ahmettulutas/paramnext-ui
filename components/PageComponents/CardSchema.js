@@ -2,7 +2,7 @@ import { Col, Row, Typography } from "antd";
 import React from "react";
 import PropTypes from "prop-types";
 import Visa from "../../assets/images/Visa.svg";
-import Discover from "../../assets/images/Discover.svg";
+
 import MasterCard from "../../assets/images/MasterCard.svg";
 import BKMExpress from "../../assets/images/BKMExpress.svg";
 import Troy from "../../assets/images/Troy.svg";
@@ -10,7 +10,7 @@ import { FormattedMessage } from "react-intl";
 import AnimateSection from "../UIComponents/AnimationSection";
 
 const
-  issuers = [MasterCard, Visa, Discover, Troy, BKMExpress],
+  issuers = [MasterCard, Visa, Troy, BKMExpress],
 
   CardSchema = ({ titleId, subTitleId, title, subtitle }) => (
     <section className="card-schema">
