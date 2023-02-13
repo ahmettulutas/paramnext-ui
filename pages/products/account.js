@@ -7,7 +7,7 @@ import { Col, Row } from "antd";
 import { CmsImage } from "@/components/UIKit";
 import Products from "@/components/UIComponents/Products";
 import { getLocalizedText, omitLocale, getContentfulPage } from "@/lib/helpers";
-/* import { Solutions } from "@/components/PageComponents"; */
+
 // eslint-disable-next-line func-style
 export async function getStaticProps () {
   return {

@@ -8,11 +8,10 @@ const UserCard = () => (
   <div className="usercard-container">
     <Profile1 />
     <div className="flex flex-column">
-      <h1>
-          Sena Durusoy
-      </h1>
+      <h1>Sena Durusoy</h1>
       <div className="flex">
         <Tick />
+        <p>Ödeme Talebi</p>
         <p>Ödeme Talebi</p>
       </div>
     </div>
