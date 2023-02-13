@@ -2,7 +2,6 @@ import Head from "next/head";
 import { Hero } from "@/components/UIComponents";
 import { heroTypes } from "@/lib/constants";
 import { HomeHeroContent } from "@/components/PageComponents";
-import UserCard from "@/components/UIComponents/HeroComponents/USerCard";
 
 
 // eslint-disable-next-line func-style
@@ -25,7 +24,8 @@ export default function Home() {
         <HomeHeroContent />
       </Hero>
       {/* <OurCustomers type={ourCustomersTypes.grid} data={ourCustomers.items} /> */}
-      <UserCard />
+
+
     </div>
   );
 }

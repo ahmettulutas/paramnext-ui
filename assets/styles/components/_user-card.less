@@ -2,4 +2,36 @@
   display: flex;
   align-items: center;
   padding: 1.5rem 2rem;
+  gap: 1rem;
+  background: linear-gradient(270deg, rgba(58, 11, 133, 0.336) -1.27%, rgba(58, 11, 133, 0) 100%);
+  backdrop-filter: blur(44px);
+  border-radius: 8px;
+
+  h1 {
+    font-size: 1.4rem;
+    /* color: white; */
+    margin-bottom: 0;
+  }
+
+  .description {
+    .flex();
+    gap: 0.25rem;
+    align-items: center;
+
+    svg {
+      margin: 0.32rem 0;
+    }
+
+    p {
+      margin-bottom: 0;
+      line-height: 2rem;
+      font-size: 1rem;
+      color: @color-secondary;
+    }
+  }
+
+  &.transparent {
+    background: transparent;
+    backdrop-filter: unset;
+  }
 }

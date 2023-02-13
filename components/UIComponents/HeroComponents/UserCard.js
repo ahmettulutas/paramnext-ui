@@ -1,18 +1,17 @@
 import React from "react";
 /* import Image from "next/image"; */
-import Profile1 from "@/assets/images/Profile1.svg";
+
 import Tick from "@/assets/images/tick.svg";
 
-const UserCard = () => (
+const UserCard = ({ title, description, transparent, img }) => (
 
-  <div className="usercard-container">
-    <Profile1 />
+  <div className={`usercard-container ${transparent ? "transparent": ""}`}>
+    {img}
     <div className="flex flex-column">
-      <h1>Sena Durusoy</h1>
-      <div className="flex">
+      <h1>{title}</h1>
+      <div className="description">
         <Tick />
-        <p>Ödeme Talebi</p>
-        <p>Ödeme Talebi</p>
+        <p>{description}</p>
       </div>
     </div>
   </div>

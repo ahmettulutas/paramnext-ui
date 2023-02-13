@@ -1,0 +1,29 @@
+.hero-grid-container {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.paymentlink-container {
+  grid-area: 1 / 10 / 4 / 15;
+  z-index: 2;
+  position: relative;
+}
+
+.paramcard-container {
+  grid-area: 3 / 1 / 8 / 14;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+
+
+.usercard-container:nth-child(1) {
+  grid-area: 1 / 1 / 3 / 10;
+  padding-bottom: .4rem;
+}
+
+.usercard-container:nth-child(2) {
+  grid-area: 8 / 5 / 10 / 15;
+  margin-top: .2rem;
+}
