@@ -5,11 +5,30 @@
     &:not(.gradient) {
       .text-700();
       .font-16();
-      height: 62px;
+      .flex();
+      justify-content: center;
+      align-items: center;
+      height: 73px;
       border-radius: 8px;
-      padding: 21px 53px;
+      padding: 24px 32px;
       line-height: 18px;
-      border: 1px solid @color-paramtech-border;
+      background: @color-paramtech-dark;
+    }
+
+    &.bordered {
+      border: 1.5px solid #F8F8FC;
+    }
+
+    &.transparent {
+      background: transparent;
+    }
+
+    &.white {
+      background: #fff;
+      color: black;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
     }
 
     &.gradient {

@@ -1,8 +1,8 @@
 .hero {
   background-color: @color-paramtech;
-  padding-top: 102px;
   position: relative;
   height: auto;
+  overflow: hidden;
 
   &.auto-height {
     height: auto !important;
@@ -39,6 +39,10 @@
 
   &.gradient {
     background: linear-gradient(270.08deg, #3E0C8A -2.64%, #200035 101.49%);
+  }
+
+  &.lines {
+    background: linear-gradient(270.08deg, #000000 -2.64%, #200035 101.49%);
   }
 
   &.beehive {

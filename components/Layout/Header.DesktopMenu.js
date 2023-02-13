@@ -84,7 +84,7 @@ const HeaderDesktopMenu = () => {
       <div className="button-container">
         <TranslatedLink key="contact-us" href="/contact-us">
           <a>
-            <Button type="primary" className="gradient"><FormattedMessage id="button.getOffer" /></Button>
+            <Button type="primary" className="bordered transparent"><FormattedMessage id="button.getOffer" /></Button>
           </a>
         </TranslatedLink>
       </div>

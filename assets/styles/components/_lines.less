@@ -1,0 +1,24 @@
+.lines-container {
+  min-height: 600px;
+  min-width: 400px;
+  position: absolute;
+  display: grid;
+  grid-template: "mid";
+  right: 0;
+  width: 50%;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  svg:nth-child(1) {
+    display: block;
+    grid-area: mid;
+    transform: rotate(42.62deg);
+  }
+
+  svg:nth-child(2) {
+    grid-area: mid;
+  }
+}

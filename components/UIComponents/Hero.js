@@ -10,6 +10,7 @@ import { ReactSVG } from "react-svg";
 
 import AnimateSection from "./AnimationSection";
 import TranslatedLink from "../UIKit/TranslatedLink";
+import HeroLines from "./HeroLines";
 
 const Hero = ({ children, className, type, image, svg: SVG, title, subTitle, description, upTitle }) => {
   const
@@ -23,10 +24,11 @@ const Hero = ({ children, className, type, image, svg: SVG, title, subTitle, des
       ])}>
 
       {
-        type === heroTypes.grain &&
-        <div className="hero-bg">
+        type === heroTypes.lines &&
+        /*         <div className="hero-bg">
           <img src="/images/grain.svg" alt="hero-grain-background"/>
-        </div>
+        </div> */
+        <HeroLines />
       }
 
       <div className="hero-wrapper">
