@@ -11,32 +11,32 @@ const OurNumbers = () => (
       <Button type="primary outlined">Gönder</Button>
     </Col>
     <Col sm={24} md={14}>
-      <Row gutter={[20, 50]}>
+      <Row gutter={[0, 50]}>
         <Col xs={24}>
-          <Row gutter={[50, 50]}>
-            <Col className="bordered-number" xs={22} lg={8}>
+          <Row>
+            <Col className="bordered-number" xs={22} lg={7}>
               <h1>32 Milyar</h1>
               <p>Aracılık edilen işlem hacmi</p>
             </Col>
-            <Col className="bordered-number" xs={22} lg={8}>
+            <Col className="bordered-number" xs={22} lg={7}>
               <h1>90 Milyon</h1>
               <p>Gerçekleşen işlem adedi</p>
             </Col>
-            <Col className="bordered-number" xs={22} lg={8}>
+            <Col className="bordered-number" xs={22} lg={7}>
               <h1>55 Bin</h1>
               <p>Kurumsal müşteri sayısı</p>
             </Col>
           </Row>
         </Col>
         <Col xs={24} className="image-container">
-          <Row gutter={[50, 50]}>
+          <Row gutter={[50, 30]} justify="space-between">
             <Col className="svg-image" xs={12}>
               <WalletSvg />
             </Col>
             <Col className="svg-image" xs={10}>
               <TransactionMade />
             </Col>
-            <Col className="svg-image" xs={10}>
+            <Col className="svg-image" xs={12}>
               <EmptyFrame />
             </Col>
             <Col className="svg-image" xs={12}>
