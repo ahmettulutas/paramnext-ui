@@ -14,7 +14,8 @@ export const SectorCard = ({ features, title, icon, description }) => (
     </div>
     <Button type="primary" htmlType="submit" className="with-icon block ml-auto mt-8">
       <FormattedMessage id={title} /> Çözümleri
-      {RightUp}
+      {/* {RightUp} */}
+      <RightUp />
     </Button>
   </section>
 );
