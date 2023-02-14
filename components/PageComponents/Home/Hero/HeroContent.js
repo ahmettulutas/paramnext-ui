@@ -4,9 +4,10 @@ import { Button } from "@/components/UIKit";
 import { FormattedMessage } from "react-intl";
 import AnimateSection from "@/components/UIComponents/AnimationSection";
 import TranslatedLink from "@/components/UIKit/TranslatedLink";
-import HeroCardContainer from "@/components/UIComponents/HeroComponents/HeroCardContainer";
+import HeroCardContainer from "@/components/UIComponents/HeroComponents/HeroCards/HeroCardContainer";
 import { ourCustomersTypes } from "@/lib/constants";
 import { OurCustomers } from "@/components/UIComponents";
+import SliderContainer from "@/components/UIComponents/HeroComponents/HeroSlider/SliderContainer";
 
 
 const HeroContent = () => (
@@ -35,8 +36,8 @@ const HeroContent = () => (
       <Col xs={{ span: 24, order: 3 }}>
         <OurCustomers type={ourCustomersTypes.line} />
       </Col>
-      <Col xs={{ span: 24, order: 3 }}>
-
+      <Col xs={{ span: 24, order: 3 }} className="slider-container">
+        <SliderContainer />
       </Col>
     </Row>
   </section>

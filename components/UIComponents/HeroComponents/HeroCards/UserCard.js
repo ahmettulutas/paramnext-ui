@@ -1,6 +1,4 @@
 import React from "react";
-/* import Image from "next/image"; */
-
 import Tick from "@/assets/images/tick.svg";
 
 const UserCard = ({ title, description, transparent, img }) => (

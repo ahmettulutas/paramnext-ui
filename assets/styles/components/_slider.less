@@ -1,0 +1,91 @@
+.slider-container {
+  background: linear-gradient(358.9deg, #000000 -36.66%, #200035 99.04%);
+  border-radius: 30.0305px;
+  position: relative;
+  margin: auto;
+  margin-bottom: -25%;
+  margin-top: 3rem;
+
+  .carousel {
+    position: relative;
+    margin-bottom: -10%;
+
+    .ant-row {
+      display: flex !important;
+    }
+  }
+
+  .header-section {
+    text-align: center;
+    margin: 4rem 0;
+
+    * {
+      margin-bottom: 0;
+      color: @gray-text-color;
+    }
+
+    p {
+      &:nth-child(1) {
+        text-transform: uppercase;
+        line-height: 171.5%;
+        font-size: 1.25rem;
+        letter-spacing: 0.01rem;
+      }
+
+      &:nth-child(2) {
+        font-size: 3.25rem;
+      }
+
+      &:nth-child(3) {
+        font-size: 32px;
+        line-height: 171.5%;
+        font-weight: 450;
+
+      }
+    }
+  }
+
+  .sector-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 4rem;
+    gap: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin: 2rem 1rem 2rem 1rem;
+
+    .svg-container {
+      padding: 0.8rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 15.5px;
+      background-color: @gray-text-color;
+      gap: 1.8rem;
+
+      svg {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    h1 {
+      font-weight: 800 !important;
+      font-size: 2rem;
+      line-height: 110%;
+      color: @dark-blue-text-color;
+      margin-bottom: 0;
+    }
+
+    .description {
+      color: @gray-70;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      font-weight: 400;
+    }
+  }
+}

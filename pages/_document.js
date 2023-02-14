@@ -27,7 +27,6 @@ export default class MyDocument extends Document {
             <link rel="icon" type="image/png" href="/favicon.png" />
             <link rel="apple-touch-icon" type="image/png" href="/favicon.png" />
             <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-            <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
           </Head>
           <body>
             <Main />
