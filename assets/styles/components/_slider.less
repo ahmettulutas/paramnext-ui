@@ -30,7 +30,7 @@
         text-transform: uppercase;
         line-height: 171.5%;
         font-size: 1.25rem;
-        letter-spacing: 0.01rem;
+        letter-spacing: 0.01em;
       }
 
       &:nth-child(2) {
@@ -46,12 +46,17 @@
     }
   }
 
+  .ant-col {
+    padding: 2rem;
+  }
+
   .sector-card-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
     flex-grow: 1;
+    height: 100%;
     padding: 2.5rem 3rem;
     gap: 30px;
     background: #FFFFFF;
@@ -90,6 +95,7 @@
       font-size: 1rem;
       line-height: 1.25rem;
       font-weight: 400;
+      margin-bottom: 0;
     }
   }
 }

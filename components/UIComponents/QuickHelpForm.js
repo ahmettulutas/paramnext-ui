@@ -9,7 +9,7 @@ import InfoModal from "@/components/UIComponents/InfoModal";
 import { emailValidator, phoneValidator } from "@/lib/helpers";
 
 
-const QuickHelpForm = ({ rowCount = 3, hasPhone, hasEmail=true }) => {
+const QuickHelpForm = ({ rowCount = 5, hasPhone, hasEmail=true }) => {
   const [loading, setLoading] = useState(false),
     modalRef = useRef(),
     [form] = Form.useForm(),
@@ -36,10 +36,7 @@ const QuickHelpForm = ({ rowCount = 3, hasPhone, hasEmail=true }) => {
 
           <div className="mb-32">
             <Typography.Title level={4} className="m-0">
-              <FormattedMessage id="label.haveAProject1" />
-            </Typography.Title>
-            <Typography.Title level={4} className="m-0">
-              <FormattedMessage id="label.haveAProject2" />
+              <FormattedMessage id="label.tellusYourNeed" />
             </Typography.Title>
           </div>
 

@@ -2,8 +2,9 @@ import Head from "next/head";
 import { Hero } from "@/components/UIComponents";
 import { heroTypes } from "@/lib/constants";
 import { HomeHeroContent } from "@/components/PageComponents";
-import BoxedContent from "@/components/PageComponents/Home/Hero/BoxedContent";
-import OurNumbers from "@/components/PageComponents/Home/Hero/OurNumbers";
+import BoxedContent from "@/components/PageComponents/Home/BoxedContent";
+import OurNumbers from "@/components/PageComponents/Home/OurNumbers";
+import { HaveProject } from "@/components/PageComponents/Home/HaveProject";
 
 // eslint-disable-next-line func-style
 
@@ -26,6 +27,7 @@ export default function Home() {
       </Hero>
       <BoxedContent />
       <OurNumbers />
+      <HaveProject />
     </div>
   );
 }
