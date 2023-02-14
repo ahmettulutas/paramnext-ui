@@ -13,7 +13,10 @@ export const SectorCard = ({ features, title, icon, description }) => (
       {features.map((item, index) => (<TextWithTick key={index} description={<FormattedMessage id={item} />} />))}
     </div>
     <Button type="primary" htmlType="submit" className="with-icon block ml-auto mt-8">
-        Turizm Çözümleri
+      <div>
+        <FormattedMessage id={title} />
+        <span> Çözümleri</span>
+      </div>
       <RightUp />
     </Button>
   </section>

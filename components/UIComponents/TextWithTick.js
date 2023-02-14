@@ -1,10 +1,10 @@
 import React from "react";
-import Tick from "@/assets/images/outlined-tick.svg";
-
-const TextWithTick = ({ description }) => (
-  <div className="text-with-tick">
-    <Tick />
+import OutlinedTick from "@/assets/images/outlined-tick.svg";
+import Tick from "@/assets/images/tick.svg";
+const TextWithTick = ({ description, isUserCard }) => (
+  <div className={`text-with-tick ${isUserCard ? "light-blue" : ""}`}>
+    {isUserCard ? <Tick /> : <OutlinedTick />}
     <p>{description}</p>
-  </div>
+  </div >
 );
 export default TextWithTick;
