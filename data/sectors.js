@@ -17,10 +17,10 @@ export const data = [
     title: "label.saas",
     description: "message.saasDescription",
     features: [
-      "label.walletService",
       "label.physcorVirtCar",
-      "label.physcorVirtPos",
-      "label.fraudMonitoring"
+      "label.qrPayment",
+      "label.campaignManagement",
+      "label.3dSecurePayment"
     ],
     icon: <TourismSvg />
   },
@@ -29,10 +29,10 @@ export const data = [
     title: "label.ecommerce",
     description: "message.ecommerceDescription",
     features: [
+      "label.virtualPos",
       "label.walletService",
-      "label.physcorVirtCar",
-      "label.physcorVirtPos",
-      "label.fraudMonitoring"
+      "label.bnplCollectionSolution",
+      "label.customerRating"
     ],
     icon: <TourismSvg />
   }

@@ -1,17 +1,14 @@
 import React from "react";
-import Tick from "@/assets/images/tick.svg";
+import TextWithTick from "../../TextWithTick";
 
 const UserCard = ({ title, description, transparent, img }) => (
 
-  <div className={`usercard-container ${transparent ? "transparent": ""}`}>
+  <div className={`usercard-container ${transparent ? "transparent" : ""}`}>
     {img}
     <div className="flex flex-column">
       <h1>{title}</h1>
-      <div className="description">
-        <Tick />
-        <p>{description}</p>
-      </div>
+      <TextWithTick className="description" description={description} />
     </div>
-  </div>
+  </div >
 );
 export default UserCard;
