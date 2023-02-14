@@ -101,6 +101,8 @@
 	"label.virtualPos": "Sanal Pos",
 	"label.bnplCollectionSolution": "BNPL Tahsilat Çözümü",
 	"label.customerRating": "Müşteri Puanlama",
+	"label.customFinTechSolution": "Özel bir finansal teknoloji çözümüne mi ihtiyacınız var?",
+	"label.customFintechDescription": "Onlarca sektör için API tabanlı kolay ve yönetilebilir finansal teknoloji çözümleri sağlıyoruz. Sizin özel bir çözüme ihtiyacınız varsa lütfen iletişime geçin.",
 	"button.getOffer": "Teklif Alın",
 	"button.moreInformation": "Daha Fazla Bilgi",
 	"button.send": "Gönder",

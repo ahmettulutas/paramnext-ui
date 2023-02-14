@@ -7,7 +7,7 @@ const UserCard = ({ title, description, transparent, img }) => (
     {img}
     <div className="flex flex-column">
       <h1>{title}</h1>
-      <TextWithTick description={description} />
+      <TextWithTick isUserCard description={description} />
     </div>
   </div >
 );

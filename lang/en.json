@@ -101,6 +101,8 @@
 	"label.virtualPos": "Virtual Pos",
 	"label.bnplCollectionSolution": "BNPL Collection Solution",
 	"label.customerRating": "Customer Rating",
+	"label.customFinTechSolution": "Need a custom fintech solution?",
+	"label.customFintechDescription": "We provide API-based easy and manageable financial technology solutions for dozens of industries. Please get in touch if you need a custom solution.",
 	"button.getOffer": "Get Offer",
 	"button.moreInformation": "More Information",
 	"button.send": "Send",
