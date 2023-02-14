@@ -14,7 +14,7 @@ export const SectorCard = ({ features, title, icon, description }) => (
     </div>
     <Button type="primary" htmlType="submit" className="with-icon block ml-auto mt-8">
         Turizm Çözümleri
-      {RightUp}
+      <RightUp />
     </Button>
   </section>
 );
