@@ -2,8 +2,7 @@ import Head from "next/head";
 import { Hero } from "@/components/UIComponents";
 import { heroTypes } from "@/lib/constants";
 import { HomeHeroContent } from "@/components/PageComponents";
-import { Row } from "antd";
-
+import BoxedContent from "@/components/UIComponents/BoxedContent";
 
 // eslint-disable-next-line func-style
 
@@ -24,9 +23,7 @@ export default function Home() {
       <Hero type={heroTypes.lines}>
         <HomeHeroContent />
       </Hero>
-      {/* <OurCustomers type={ourCustomersTypes.grid} data={ourCustomers.items} /> */}
-      <Row style={{ height: "1000px", width: "100%", marginTop: "4rem" }}></Row>
-
+      <BoxedContent />
     </div>
   );
 }
