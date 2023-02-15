@@ -11,7 +11,7 @@ export const HaveProject = () => (
       <h2><FormattedMessage id="label.haveAProject1" /></h2>
       <p><FormattedMessage id="label.contactUs2" /></p>
     </div>
-    <Col xs={24} sm={20} md={18} lg={12} className="m-auto">
+    <Col xs={24} sm={20} md={18} lg={16} className="m-auto">
       <QuickHelpForm />
     </Col>
     <div className="svg-container">

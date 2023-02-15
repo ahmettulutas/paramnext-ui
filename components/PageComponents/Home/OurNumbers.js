@@ -8,9 +8,9 @@ import { FormattedMessage } from "react-intl";
 const OurNumbers = () => (
   <Row className="our-numbers-container" justify="space-between">
     <Col className="text-section" sm={24} md={8}>
-      <h1>Uluslararası olarak büyüyün, maliyetleri azaltın</h1>
+      <h1><FormattedMessage id="label.growInternationally" /></h1>
       <p><FormattedMessage id="label.customFintechDescription" /></p>
-      <Button type="primary outlined">Gönder</Button>
+      <Button type="primary outlined"><FormattedMessage id="button.send" /></Button>
     </Col>
     <Col sm={24} md={14}>
       <Row gutter={[0, 50]}>

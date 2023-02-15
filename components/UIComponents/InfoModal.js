@@ -22,7 +22,7 @@ const InfoModal = React.forwardRef((props, ref) => {
         <Col><InfoCircleOutlined /></Col>
         <Col>
           <p>
-            <FormattedMessage id={error ? "label.fomSubmitFailed" : "label.formSubmitted"} />
+            <FormattedMessage id={error ? "label.formSubmitFailed" : "label.formSubmitted"} />
           </p>
         </Col>
       </Row>

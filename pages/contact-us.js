@@ -34,7 +34,7 @@ const Contact = ({ pageInfo }) => {
         <link rel="alternate" href="http://localhost:3000" hrefLang="tr" />
         <link rel="alternate" href="http://localhost:3000/en" hrefLang="en" />
       </Head>
-      <Hero type={heroTypes.beehive} className={"auto-height"}>
+      <Hero type={heroTypes.lines} className={"auto-height"}>
         <Row className="contact-us-container" gutter={[0, 100]}>
           <Col xs={22} md={16} lg={10} xl={7}>
             <AnimateSection animationSlide={"slideRight"} delay={900}>

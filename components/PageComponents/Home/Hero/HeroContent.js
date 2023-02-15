@@ -28,7 +28,7 @@ const HeroContent = () => (
           </TranslatedLink>
         </AnimateSection>
       </Col>
-      <Col xs={{ span: 22, order: 1 }} lg={{ span: 12, order: 2 }} xl={{ span: 11, order: 2 }} className="paramtech-card">
+      <Col xs={{ span: 22, order: 1 }} lg={{ span: 12, order: 2 }} xl={{ span: 11, order: 2 }} className="paramnext-card">
         <AnimateSection animationSlide={"slideLeft"} delay={1200}>
           <HeroCardContainer />
         </AnimateSection>

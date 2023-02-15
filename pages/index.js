@@ -7,6 +7,7 @@ import OurNumbers from "@/components/PageComponents/Home/OurNumbers";
 import { HaveProject } from "@/components/PageComponents/Home/HaveProject";
 import IntegrateEasily from "@/components/PageComponents/Home/IntegrateEasily";
 import Features from "@/components/PageComponents/Home/Features/FeaturesContainer";
+import CustomerFeedbacks from "@/components/PageComponents/CustomerFeedbacks/CustomerFeedbacks";
 
 // eslint-disable-next-line func-style
 
@@ -32,6 +33,7 @@ export default function Home() {
       <HaveProject />
       <IntegrateEasily />
       <Features />
+      <CustomerFeedbacks />
     </div>
   );
 }
