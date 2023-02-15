@@ -1,0 +1,60 @@
+.feature-cards-container {
+  /*   display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 600px);
+  grid-template-rows: repeat(50px, 1fr); */
+  columns: 500px;
+  justify-content: center;
+  margin: 3rem auto;
+  align-content: flex-start;
+
+
+  .feature-card {
+    background: #F5F6F9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 2.5rem 0 2.5rem;
+    text-align: center;
+    break-inside: avoid-column;
+    margin: 2.5rem 1rem;
+    overflow: hidden;
+
+    h1 {
+      margin-bottom: 1.5rem;
+      font-weight: 800;
+      font-size: 2.25rem;
+      line-height: 110%;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      font-weight: 450;
+      font-size: 1.37rem;
+      line-height: 120%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+
+    .svg-container {
+      display: flex;
+      justify-content: center;
+      align-self: flex-end;
+      width: 100%;
+      height: auto;
+      position: relative;
+      bottom: 0;
+      margin: 0 auto;
+
+
+
+      svg {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+      }
+    }
+
+  }
+}

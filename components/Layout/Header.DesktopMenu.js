@@ -46,7 +46,7 @@ const HeaderDesktopMenu = () => {
               label: (
                 <TranslatedLink key="about-us" href="/about-us">
                   <a>
-                    <FormattedMessage id="label.aboutUs" />
+                    <FormattedMessage id="label.solutions" />
                   </a>
                 </TranslatedLink>
               ), key: "about-us"
@@ -60,7 +60,7 @@ const HeaderDesktopMenu = () => {
               label: (
                 <TranslatedLink key="contact-us" href="/contact-us">
                   <a>
-                    <FormattedMessage id="label.contactUs" />
+                    <FormattedMessage id="label.references" />
                   </a>
                 </TranslatedLink>
               ), key: "contact-us"

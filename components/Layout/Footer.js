@@ -16,19 +16,14 @@ const Footer = () => (
       <Row>
         <Col xs={24} md={12}>
           <Row gutter={[0, 25]}>
-            <Col xs={20} sm={16} md={12} className="brand-logo">
+            <Col xs={16} sm={14} md={12} className="brand-logo">
               <Logo />
-            </Col>
-            <Col xs={24} >
-              <p className="footer-desc">
-                <FormattedMessage id="label.footer" />
-              </p>
             </Col>
             <Col xs={24} >
               <Row gutter={[{ xs: 20 }]}>
                 <Col xs={24}>
                   <p className="text-700">
-                    <FormattedMessage id="label.quickMenu" />
+                    <FormattedMessage id="label.financialQuickSolutions" />
                   </p>
                 </Col>
                 <Col xs={24} sm={16}>

@@ -9,7 +9,7 @@ import PaymentLinkCard from "./PaymentLinkCard";
 const HeroCardContainer = () => (
   <div className="hero-grid-container">
     <UserCard title="Sena Durusoy" description={<FormattedMessage id="label.paymentRequest" />} transparent img={<Profile2 />}/>
-    <UserCard title="Sena Durusoy" description={<FormattedMessage id="label.paymentRequest" />} img={<Profile3 />}/>
+    <UserCard title="Helin Asiloğlu - ₺150" description={<FormattedMessage id="label.paymentRequest" />} img={<Profile3 />}/>
     <HomeParamTechCard />
     <PaymentLinkCard />
   </div>

@@ -5,6 +5,8 @@ import { HomeHeroContent } from "@/components/PageComponents";
 import BoxedContent from "@/components/PageComponents/Home/BoxedContent";
 import OurNumbers from "@/components/PageComponents/Home/OurNumbers";
 import { HaveProject } from "@/components/PageComponents/Home/HaveProject";
+import IntegrateEasily from "@/components/PageComponents/Home/IntegrateEasily";
+import Features from "@/components/PageComponents/Home/Features/FeaturesContainer";
 
 // eslint-disable-next-line func-style
 
@@ -28,6 +30,8 @@ export default function Home() {
       <BoxedContent />
       <OurNumbers />
       <HaveProject />
+      <IntegrateEasily />
+      <Features />
     </div>
   );
 }

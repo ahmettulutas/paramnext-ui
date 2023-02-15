@@ -1,18 +1,14 @@
-import TourismSvg from "@/assets/images/sectors/tourism.svg";
-import ECommerceSvg from "@/assets/images/sectors/e-commerce.svg";
-import SaasSvg from "@/assets/images/sectors/saas.svg";
+import Profile4 from "@/assets/images/userProfile/Profile4.svg";
+import Profile5 from "@/assets/images/userProfile/Profile5.svg";
+import Profile6 from "@/assets/images/userProfile/Profile6.svg";
+
 export const data = [
   {
     id: 1,
-    title: "label.tourism",
+    customerName: "Kübra Taşlı",
+    customerTitle: "Param",
     description: "message.tourismDescription",
-    features: [
-      "label.walletService",
-      "label.physcorVirtCar",
-      "label.physcorVirtPos",
-      "label.fraudMonitoring"
-    ],
-    icon: <TourismSvg />
+    icon: <Profile4 />
   },
   {
     id: 2,
@@ -24,7 +20,7 @@ export const data = [
       "label.campaignManagement",
       "label.3dSecurePayment"
     ],
-    icon: <SaasSvg />
+    icon: <Profile5 />
   },
   {
     id: 3,
@@ -36,6 +32,6 @@ export const data = [
       "label.bnplCollectionSolution",
       "label.customerRating"
     ],
-    icon: <ECommerceSvg />
+    icon: <Profile6 />
   }
 ];
