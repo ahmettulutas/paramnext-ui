@@ -8,7 +8,7 @@ const CustomerFeedbacks = () => (
   <section className="customer-feedbacks-container">
     <Row justify="center">
       <Col className="customer-text-section" xs={24} md={8}>
-        <h1><FormattedMessage id="label.focusOnYourBusiness" /></h1>
+        <h3 className="mb-32"><FormattedMessage id="label.focusOnYourBusiness" /></h3>
         <p><FormattedMessage id="label.customerDescription" /></p>
       </Col>
       <Col xs={24} md={16} className="cards-container">

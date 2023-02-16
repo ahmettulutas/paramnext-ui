@@ -7,47 +7,47 @@ import { FormattedMessage } from "react-intl";
 
 const OurNumbers = () => (
   <section className="our-numbers-container">
-    <Row justify="space-between">
-      <Col className="text-section" sm={24} md={8}>
-        <h3 className="mb-0"><FormattedMessage id="label.growInternationally" /></h3>
-        <p className="mb-0"><FormattedMessage id="label.customFintechDescription" /></p>
-        <Button type="primary outlined"><p className="text-700 dark-blue mb-0"><FormattedMessage id="label.talktoCustomerRepresentative" /></p></Button>
-      </Col>
-      <Col sm={24} md={14}>
-        <Row gutter={[0, 50]}>
-          <Col xs={24}>
-            <Row justify="space-between">
-              <Col className="bordered-number" xs={22} lg={7}>
-                <h5 className="mb-0">32 Milyar</h5>
-                <p>Aracılık edilen işlem hacmi</p>
-              </Col>
-              <Col className="bordered-number" xs={22} lg={7}>
-                <h5>90 Milyon</h5>
-                <p>Gerçekleşen işlem adedi</p>
-              </Col>
-              <Col className="bordered-number" xs={22} lg={7}>
-                <h5>55 Bin</h5>
-                <p>Kurumsal müşteri sayısı</p>
-              </Col>
-            </Row>
-          </Col>
-          <Col xs={24} className="image-container">
-            <Row gutter={[50, 30]} justify="space-between">
-              <Col className="svg-image" xs={12}>
-                <WalletSvg />
-              </Col>
-              <Col className="svg-image" xs={10}>
-                <TransactionMade />
-              </Col>
-              <Col className="svg-image" xs={12}>
-                <EmptyFrame />
-              </Col>
-              <Col className="svg-image" xs={12}>
-                <EmptyFrame />
-              </Col>
-            </Row>
+    <Row justify="space-between" gutter={[20, 20]}>
+      <Col className="text-section" sm={24} lg={8}>
+        <Row gutter={[0, 20]}>
+          <h3><FormattedMessage id="label.growInternationally" /></h3>
+          <p><FormattedMessage id="label.customFintechDescription" /></p>
+          <Col xs={16}>
+            <Button type="primary outlined"><p className="text-700 dark-blue"><FormattedMessage id="label.talktoCustomerRepresentative" /></p></Button>
           </Col>
         </Row>
+      </Col>
+      <Col sm={24} lg={14}>
+        <Row className="container-responsive-centered tablet">
+          <Col className="bordered-number" xs={12} lg={7}>
+            <h5>32 Milyar</h5>
+            <p>Aracılık edilen işlem hacmi</p>
+          </Col>
+          <Col className="bordered-number" xs={12} lg={7}>
+            <h5>90 Milyon</h5>
+            <p>Gerçekleşen işlem adedi</p>
+          </Col>
+          <Col className="bordered-number" xs={12} lg={7}>
+            <h5>55 Bin</h5>
+            <p>Kurumsal müşteri sayısı</p>
+          </Col>
+        </Row>
+        <Col xs={24} className="image-container">
+          <Row gutter={[50, 30]} justify="space-between">
+            <Col className="svg-image" xs={12}>
+              <WalletSvg />
+            </Col>
+            <Col className="svg-image" xs={10}>
+              <TransactionMade />
+            </Col>
+            <Col className="svg-image" xs={12}>
+              <EmptyFrame />
+            </Col>
+            <Col className="svg-image" xs={12}>
+              <EmptyFrame />
+            </Col>
+          </Row>
+        </Col>
       </Col>
     </Row>
   </section>

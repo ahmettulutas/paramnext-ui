@@ -6,7 +6,7 @@ import { FormattedMessage } from "react-intl";
 const BoxedContent = () => (
 
   <section className="boxed-content-container">
-    <Row align="center">
+    <Row align="space-between">
       <Col className="content" xs={24} sm={14}>
         <h5 className="dark-blue"><FormattedMessage id="label.customFinTechSolution" /></h5>
         <p><FormattedMessage id="label.customFintechDescription" /></p>
