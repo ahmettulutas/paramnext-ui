@@ -1,12 +1,6 @@
 .hero {
   background-color: @color-paramtech;
   position: relative;
-  height: auto;
-
-  &.auto-height {
-    height: auto !important;
-    min-height: auto !important;
-  }
 
   &-wrapper {
     .relative();
@@ -19,20 +13,7 @@
       .pt-0();
     }
 
-    h1 {
-      .text-400();
-      color: white;
-      line-height: 100%;
 
-      span {
-        .text-500();
-      }
-    }
-
-    p {
-      color: white;
-      font-size: 20px;
-    }
 
   }
 
@@ -79,7 +60,7 @@
       font-size: 24px;
       line-height: 110%;
       color: white;
-      text-transform: uppercase;
+      .uppercase();
     }
 
     h1 {

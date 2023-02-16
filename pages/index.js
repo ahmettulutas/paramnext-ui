@@ -24,7 +24,6 @@ export default function Home() {
         <link rel="alternate" href="http://localhost:3000" hrefLang="tr" />
         <link rel="alternate" href="http://localhost:3000/en" hrefLang="en" />
       </Head>
-
       <Hero type={heroTypes.lines}>
         <HomeHeroContent />
       </Hero>

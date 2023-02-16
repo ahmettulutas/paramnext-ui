@@ -4,7 +4,7 @@
   grid-template-columns: repeat(auto-fill, 600px);
   grid-template-rows: repeat(50px, 1fr); */
   columns: 500px;
-  justify-content: center;
+  .justify-center();
   margin: 3rem auto;
   align-content: flex-start;
 
@@ -13,7 +13,7 @@
     background: #F5F6F9;
     border-radius: 30px;
     display: flex;
-    align-items: center;
+    .align-center();
     flex-direction: column;
     padding: 3rem 2.5rem 0 2.5rem;
     text-align: center;
@@ -39,15 +39,12 @@
 
     .svg-container {
       display: flex;
-      justify-content: center;
-      align-self: flex-end;
+      .justify-center();
       width: 100%;
-      height: auto;
       position: relative;
       bottom: 0;
       margin: 0 auto;
-
-
+      max-width: 100%;
 
       svg {
         width: 100%;

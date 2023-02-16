@@ -5,8 +5,8 @@ const SliderContainer = () => (
   <section>
     <div className="header-section">
       <p><FormattedMessage id="label.sectors" /></p>
-      <p><FormattedMessage id="label.everythingYouNeed" /></p>
-      <p><FormattedMessage id="label.nothingYouNoNeed" /></p>
+      <h2><FormattedMessage id="label.everythingYouNeed" /></h2>
+      <h5><FormattedMessage id="label.nothingYouNoNeed" /></h5>
     </div>
     <HeroCarousel />
   </section>

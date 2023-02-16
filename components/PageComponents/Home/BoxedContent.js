@@ -5,17 +5,17 @@ import { FormattedMessage } from "react-intl";
 
 const BoxedContent = () => (
 
-
-  <Row className="boxed-content-container" align="center">
-    <Col className="content" xs={24} sm={14}>
-      <h1 className="bc-title"><FormattedMessage id="label.customFinTechSolution" /></h1>
-      <p><FormattedMessage id="label.customFintechDescription" /></p>
-    </Col>
-    <Col xs={24} sm={10} className="btn-container">
-      <Button type="primary outlined"><FormattedMessage id="button.send" /></Button>
-    </Col>
-  </Row>
-
+  <section className="boxed-content-container">
+    <Row align="center">
+      <Col className="content" xs={24} sm={14}>
+        <h5 className="dark-blue"><FormattedMessage id="label.customFinTechSolution" /></h5>
+        <p><FormattedMessage id="label.customFintechDescription" /></p>
+      </Col>
+      <Col xs={24} sm={10} className="btn-container">
+        <Button type="primary outlined"><FormattedMessage id="button.send" /></Button>
+      </Col>
+    </Row>
+  </section>
 );
 
 

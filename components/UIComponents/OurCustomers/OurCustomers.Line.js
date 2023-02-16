@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const OurCustomersLine = ({ fallbackData }) => (
   <div>
-    <h1>Partnerlerimiz</h1>
+    <h5 className="white-text">Partnerlerimiz</h5>
     <Marquee pauseOnHover gradient={false} speed={40}>
       <div className="our-customers__wrapper">
 

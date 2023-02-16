@@ -123,7 +123,8 @@
   z-index: 1;
 
   @media @tablet {
-    justify-content: center;
+    .justify-center();
+    ;
   }
 }
 
@@ -149,8 +150,8 @@ body {
 
 .mobile-centered {
   @media @mobile-large {
-    justify-content: center;
-    align-items: center;
+    .justify-center();
+    .align-center();
   }
 }
 
@@ -162,15 +163,19 @@ body {
   .flex();
   justify-content: space-between;
 
+  &.column {
+    .flex-column();
+  }
+
   &.tablet {
     @media @tablet {
-      justify-content: center;
+      .justify-center();
     }
   }
 
   &.mobile {
     @media @mobile-large {
-      justify-content: center;
+      .justify-center();
     }
   }
 

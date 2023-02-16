@@ -3,99 +3,19 @@
   // --- HERO ---
   .hero {
 
-
     .content {
       .pt-112();
-
-
 
       .offer {
         padding-top: 80px;
         .pb-104();
 
-        h1 {
-          font-size: 4rem;
-          font-weight: 800;
-        }
-
         p {
-          font-family: 'Mark Pro';
-          font-style: normal;
-          font-weight: 400;
-          line-height: 2rem;
           color: rgba(255, 255, 255, 0.8);
         }
       }
-
-
-
     }
   }
-
-  // --- QUICK HELP ---
-  .quick-help {
-    &__wrapper {
-      .container();
-      /* .pt-192(); */
-    }
-
-    // --- QUICK HELP FORM ---
-    .quick-help-form {
-      .full-width();
-      position: relative;
-      /*   filter: drop-shadow(0px 0px 100px rgba(26, 25, 39, 0.4)); 
-  -webkit-filter: drop-shadow(0px 0px 100px rgba(26, 25, 39, 0.4)); */
-
-      display: grid;
-      grid-template: repeat(12, 1fr) / repeat(13, 1fr);
-      margin: auto;
-      background: transparent;
-
-      .bg-div {
-        background: linear-gradient(270.08deg, #3e0c8a -2.64%, #200035 100%);
-        box-shadow: 0px 0px 100px rgba(26, 25, 39, 0.4);
-        display: flex;
-        height: 100%;
-        width: 100%;
-        grid-area: 1 / 1 / 11 / 14;
-        z-index: 0;
-        border-radius: 20px;
-
-        svg {
-          width: 100%;
-          height: auto;
-
-        }
-      }
-
-      .form-wrapper {
-        background-color: white;
-        padding: 33px;
-        grid-area: 2 / 6 / 14 / 13;
-        z-index: 1;
-        border-radius: 20px;
-        box-shadow: 0px 0px 100px rgba(26, 25, 39, 0.4);
-      }
-
-      .text {
-        color: rgb(122, 122, 158);
-        grid-area: 1 / 1 / 10 / 6;
-        z-index: 1;
-        display: grid;
-        place-items: center;
-        margin-left: 1rem;
-
-        .ant-typography {
-          font-weight: 500 !important;
-          color: #fff;
-          font-size: 50px;
-          line-height: 110%;
-        }
-      }
-
-    }
-  }
-
 }
 
 @media @tablet {
@@ -106,84 +26,12 @@
       .content {
         .text-center();
 
-
         .offer {
           .container-tight();
           .pt-16();
           .pb-40();
-
-          .ant-typography {
-            &+p {
-              .mb-56();
-            }
-          }
-
-          h1 {
-            .mb-16();
-          }
-        }
-
-        .paramtech-card {
-          .container-tight();
-        }
-
-
-      }
-    }
-
-    // --- QUICK HELP ---
-    .quick-help {
-      &__wrapper {
-        .container-fluid();
-        .pt-56();
-        .pb-56();
-
-        .text {
-          p {
-            .mb-40();
-          }
         }
       }
-
-      // --- QUICK HELP FORM ---
-      .quick-help-form {
-        .ml-0();
-        .mt-80();
-        height: 100%;
-        filter: none;
-        -webkit-filter: none;
-
-        .bg-div {
-          grid-area: 1 / 1 / 8 / 14;
-        }
-
-        .form-wrapper {
-          grid-area: 3 / 2 / 12 / 13;
-          z-index: 1;
-          padding: 33px 20px 20px 20px;
-
-          >div {
-            top: 20px;
-            right: 5%;
-            width: 90%;
-            margin: auto;
-            height: 100%;
-          }
-        }
-
-        .text {
-          grid-area: 1 / 2 / 3 / 13;
-          white-space: nowrap;
-
-          .ant-typography {
-            font-size: 34px;
-          }
-        }
-      }
-
-
     }
   }
-
-
 }

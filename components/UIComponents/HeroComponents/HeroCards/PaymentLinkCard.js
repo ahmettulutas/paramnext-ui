@@ -6,7 +6,7 @@ import { FormattedMessage } from "react-intl";
 const PaymentLinkCard = () => (
   <div className="paymentlink-container">
     <Profile1 />
-    <h2><FormattedMessage id="label.makePayment" /></h2>
+    <p className="mb-0 lh-big text-500 black-text"><FormattedMessage id="label.makePayment" /></p>
     <Link href="/">
       <a><FormattedMessage id="label.createPaymentLink" /></a>
     </Link>
