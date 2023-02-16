@@ -1,5 +1,5 @@
 import TourismSvg from "@/assets/images/sectors/tourism.svg";
-/* import ECommerceSvg from "@/assets/images/sectors/e-commerce.svg"; */
+import ECommerceSvg from "@/assets/images/sectors/e-commerce.svg";
 import SaasSvg from "@/assets/images/sectors/saas.svg";
 export const data = [
   {
@@ -25,8 +25,8 @@ export const data = [
       "label.3dSecurePayment"
     ],
     icon: <SaasSvg />
-  }
-/*   {
+  },
+  {
     id: 3,
     title: "label.ecommerce",
     description: "message.ecommerceDescription",
@@ -37,5 +37,5 @@ export const data = [
       "label.customerRating"
     ],
     icon: <ECommerceSvg />
-  } */
+  }
 ];

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Row, Col, Typography, Form, Button, Spin } from "antd";
+import { Row, Col, Form, Button, Spin } from "antd";
 import { FormattedMessage } from "react-intl";
 import { Input, Textarea } from "@/components/UIKit";
 import RightIcon from "@/assets/images/right-icon.svg";
@@ -33,13 +33,9 @@ const QuickHelpForm = ({ rowCount = 5, hasPhone, hasEmail=true }) => {
     <div className="form">
       <div>
         <Form form={form} name="quickHelp" autoComplete="off" onFinish={handleFinish}>
-
-          <div className="mb-32">
-            <Typography.Title level={4} className="m-0">
-              <FormattedMessage id="label.tellusYourNeed" />
-            </Typography.Title>
-          </div>
-
+          <h4 className="mb-32 text-500">
+            <FormattedMessage id="label.tellusYourNeed" />
+          </h4>
           <Form.Item
             name="from_name"
             rules={[{ required: true, message: <FormattedMessage id="label.nameSurnameRequired" /> }]}

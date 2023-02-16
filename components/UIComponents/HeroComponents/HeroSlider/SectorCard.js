@@ -7,8 +7,8 @@ import { FormattedMessage } from "react-intl";
 export const SectorCard = ({ features, title, icon, description }) => (
   <section className="sector-card-container">
     <div className="svg-container">{icon}</div>
-    <h5 className="mb-0 text-800 dark-blue"><FormattedMessage id={title} /></h5>
-    <p className="small lh-small mb-0"><FormattedMessage id={description} /></p>
+    <h5 className="text-800 dark-blue"><FormattedMessage id={title} /></h5>
+    <p className="small lh-small"><FormattedMessage id={description} /></p>
     <div>
       {features.map((item, index) => (<TextWithTick key={index} description={<FormattedMessage id={item} />} />))}
     </div>

@@ -1,8 +1,6 @@
 .have-project-container {
   .container();
   .relative();
-  .flex();
-  flex-direction: column;
   background: linear-gradient(359.01deg, #000000 -23.57%, #200035 99.13%);
   border-radius: 30.0305px;
   padding: 4.3rem 0;
@@ -15,29 +13,16 @@
 
     * {
       margin-bottom: 0;
-    }
-
-    h1 {
-      .uppercase();
-      font-weight: 800;
-      font-size: 1.25rem;
-      line-height: 171.5%;
-      letter-spacing: 0.01em;
-      color: #E2DDEB;
-    }
-
-    h2 {
-      font-weight: 800;
-      font-size: 3.25rem;
-      line-height: 110%;
-      letter-spacing: 0.01em;
-      color: #F1EEF7;
+      color: @gray-text-color;
     }
 
     p {
-      color: #F1EEF7;
-      font-weight: 450;
-      font-size: 2rem;
+      .uppercase();
+      line-height: 171.5%;
+      color: #E2DDEB;
+    }
+
+    h5 {
       line-height: 171.5%;
     }
 
