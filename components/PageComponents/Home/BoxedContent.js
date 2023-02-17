@@ -7,8 +7,8 @@ const BoxedContent = () => (
 
   <section className="boxed-content-container">
     <Row align="space-between">
-      <Col className="content" xs={24} sm={14}>
-        <h5 className="dark-blue"><FormattedMessage id="label.customFinTechSolution" /></h5>
+      <Col xs={24} sm={14}>
+        <h5 className="dark-blue mb-16"><FormattedMessage id="label.customFinTechSolution" /></h5>
         <p><FormattedMessage id="label.customFintechDescription" /></p>
       </Col>
       <Col xs={24} sm={10} className="btn-container">
