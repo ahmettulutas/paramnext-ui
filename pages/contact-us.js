@@ -45,9 +45,9 @@ const Contact = ({ pageInfo }) => {
                   </Typography.Title>
                 </Col>
                 <Col>
-                  <Typography.Title level={3}>
+                  <h1>
                     {getLocalizedText(heroDescription)}
-                  </Typography.Title>
+                  </h1>
                 </Col>
                 <Col className="gradient-bg-border">
                   <p>{(getLocalizedText(phoneNumber))}</p>
