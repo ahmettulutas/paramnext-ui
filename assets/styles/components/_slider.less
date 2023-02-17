@@ -13,6 +13,7 @@
     .ant-row {
       display: flex !important;
       padding: 0 1.5rem;
+      .justify-center();
     }
   }
 
@@ -41,6 +42,41 @@
 
   .ant-col {
     padding: 2rem 1rem;
+  }
+
+  .carousel-container {
+
+
+    .carousel-slider-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto 0;
+      z-index: 3;
+      top: 0;
+      bottom: 3.5rem;
+      position: absolute;
+      height: 3.85rem;
+      width: 3.85rem;
+      border: 3px solid #FFFFFF;
+      border-radius: 1rem;
+      text-align: center;
+
+      .carousel-slider-button-icon {
+        color: #FFFFFF;
+        font-size: 2.25rem;
+        height: 2.25rem;
+        display: inline-block;
+      }
+
+      &.left {
+        left: 3.2rem;
+      }
+
+      &.right {
+        right: 3.2rem;
+      }
+    }
   }
 }
 
