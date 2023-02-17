@@ -7,7 +7,7 @@ const CustomerCard = ({ item }) => {
   return (
     <div className="customer-card">
       <UserCard title={customerName} description={position} img={icon} transparent/>
-      <p><FormattedMessage id={feedback} /></p>
+      <p className="small"><FormattedMessage id={feedback} /></p>
 
     </div>
   );

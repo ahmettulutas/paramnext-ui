@@ -5,11 +5,16 @@ import { FormattedMessage } from "react-intl";
 
 const PaymentLinkCard = () => (
   <div className="paymentlink-container">
-    <Profile1 />
-    <p className="lh-big text-500 black-text"><FormattedMessage id="label.makePayment" /></p>
-    <Link href="/">
-      <a><FormattedMessage id="label.createPaymentLink" /></a>
-    </Link>
+    <div className="svg-container">
+      <Profile1 />
+    </div>
+    <div>
+      <p className="lh-big text-500 black-text"><FormattedMessage id="label.makePayment" /></p>
+      <Link href="/">
+        <a><FormattedMessage id="label.createPaymentLink" /></a>
+      </Link>
+    </div>
   </div>
 );
+
 export default PaymentLinkCard;
