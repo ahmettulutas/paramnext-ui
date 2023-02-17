@@ -13,7 +13,7 @@ const HeroCarousel = () => {
 
   return (
     <div className="carousel-container">
-      <Button onClick={handlePrev} type="text" className="carousel-slider-button" >
+      <Button onClick={handlePrev} type="text" className="carousel-slider-button left" >
         <ArrowLeftOutlined className="carousel-slider-button-icon" />
       </Button>
       <Carousel ref={carouselRef} dotPosition="none">
@@ -32,7 +32,7 @@ const HeroCarousel = () => {
           ))}
         </Row>
       </Carousel>
-      <Button onClick={handleNext} type="text" className="carousel-slider-button">
+      <Button onClick={handleNext} type="text" className="carousel-slider-button right">
         <ArrowRightOutlined className="carousel-slider-button-icon" />
       </Button>
     </div>
