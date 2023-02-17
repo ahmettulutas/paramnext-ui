@@ -6,7 +6,7 @@ const FeatureCard = ({ item }) => {
   return (
     <div className="feature-card" style={{ overflow }}>
       <h4><FormattedMessage id={title} /></h4>
-      <p><FormattedMessage id={description} /></p>
+      <p className="black-text lh-big"><FormattedMessage id={description} /></p>
       <div className="svg-container" style={customStyle}>
         {image}
       </div>

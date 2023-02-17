@@ -3,11 +3,14 @@
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, 600px);
   grid-template-rows: repeat(50px, 1fr); */
+  .container();
   columns: 500px;
-  .justify-center();
   margin: 3rem auto;
   align-content: flex-start;
 
+  * {
+    break-inside: avoid;
+  }
 
   .feature-card {
     background: #F5F6F9;
@@ -26,9 +29,6 @@
     }
 
     p {
-      font-size: 1.37rem;
-      line-height: 120%;
-      color: #000000;
       font-weight: 450;
       margin-bottom: 2rem !important;
     }

@@ -19,9 +19,13 @@
     .align-center();
   }
 
-  .cards-container {
-    columns: 2;
-    justify-content: center;
+  .customer-cards-container {
+    columns: 300px;
+
+    * {
+      break-inside: avoid;
+    }
+
 
     .customer-card {
       background: #FFFFFF;
